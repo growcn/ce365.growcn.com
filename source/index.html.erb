@@ -1,0 +1,34 @@
+
+<ul id="menu">
+  <li data-menuanchor="page1" class="active"><a href="#page1">首页</a></li>
+<!--   <li data-menuanchor="page2"><a href="#page2">特征</a></li>
+ -->  <li data-menuanchor="download"><a href="#download">下载</a></li>
+</ul>
+
+<div style="position:fixed;top:50px;left:50px;color:white;z-index:999;" id="callbacksDiv"></div>
+
+<div id="pagepiling">
+    <div class="section" id="section1">
+      <div>
+        <%=image_tag('ce365_icon.png')%>
+        <!-- <h1>Callbacks</h1> -->
+      </div>
+    <p></p>
+    <br />
+    </div>
+
+    <div class="section" id="section2">
+      <div class="intro">
+        <span> 
+          <%=image_tag('introduction.jpg',{width:'600px', heigh: '300px'})%> 
+        </span>
+        <p></p>
+      </div>
+    </div>
+
+    <div class="section" id="section4">
+      <div class="intro">
+        <a href="javascript:void(0)" onclick="downLoadCe365()"><%=image_tag("btn_android_dl.png")%></a>
+      </div>
+    </div>
+</div>
